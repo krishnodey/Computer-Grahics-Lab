@@ -7,8 +7,9 @@ static float shift = 0;
 void boatMove()
 {
     shift += 0.01;
-    if(shift > 200)
-        shift = 0;
+    //if(shift > 200)
+       // shift = 0;
+    shift = (shift > 200) ? 0:shift;
     glutPostRedisplay();
 }
 
