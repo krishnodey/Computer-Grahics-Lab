@@ -762,7 +762,7 @@ int main()
 	glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize (1200, 600);
 	glutInitWindowPosition (0, 0);
-	glutCreateWindow ("Night Mode: Cox's Bazar–Tekhnaf Marine Drive");
+	glutCreateWindow ("Night Mode: Cox's BazarÂ–Tekhnaf Marine Drive");
 	init();
 	glutDisplayFunc(display);
 //	glutSpecialFunc(spe_key);//up,down,left......
